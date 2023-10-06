@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: 'Poppins, sans-serif'
+      },
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/bg1.png')"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
